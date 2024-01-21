@@ -17,14 +17,11 @@ let array = [
 btnOpen.addEventListener('click', handleClick)
 btnReset.addEventListener('click', handleResetClick)
 
-
 function handleClick() {
     screenOne.classList.add("hide")
     screenTwo.classList.remove("hide")
 
     document.querySelector(".phraseOpenedCookie").innerText = array[randomNumber]
-    alert(array[randomNumber])
-
 }
 
 function handleResetClick() {
